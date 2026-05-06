@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Bot files (not used)
+src/bot/
+
+# MongoDB models (not used)
+src/models/
+
+# Unused services
+src/services/ai.service.js
+src/services/notification.service.js
+src/services/messageLog.service.js
+src/services/matching.service.js
+
+# Unused validation
+src/validation/
+
+# Unused middleware
+src/middlewares/index.js
+
+# Data files with runtime content
+src/storage/json/*.json
